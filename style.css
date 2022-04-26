@@ -897,12 +897,8 @@ background-image: url(image/res/res3.jpg);
    position: absolute;
    top: 50%;
    left: 0;
-   background-color: rgba(255,255,255,0.55);
-   height: 100px;
    line-height: 100px;
-   width: 45px;
    text-align: center;
-   box-shadow: 0 5px 10px black;
    user-select: none;
    color: #444;
    cursor: pointer;
@@ -911,20 +907,24 @@ background-image: url(image/res/res3.jpg);
    position: absolute;
    top: 50%;
    right: 0;
-   background-color: rgba(255,255,255,0.55);
-   height: 100px;
+  /* background-color: rgba(255,255,255,0.55);*/
    line-height: 100px;
-   width: 45px;
    text-align: center;
-   box-shadow: 0 5px 10px black;
    user-select: none;
    color: #444;
    cursor: pointer;
 }
 
 .nextprevbtn{
- border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color:   #14141f;
+ border-radius: 50%;
  margin: 0rem 0.5rem;
+ box-shadow: 0 5px 10px black;
 }
 
 .overlay{
