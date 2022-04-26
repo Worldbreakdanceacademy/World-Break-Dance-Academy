@@ -30,7 +30,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 1000;
   background-image: url('image/formback.jpg');
   background-size: 100% 100%;
   animation: stretch 1.5s ease forwards;
@@ -69,7 +68,7 @@ content: " ";
 }
 
 .container > *{
-z-index: 1000;
+z-index: 100000;
 color: white;
 }
 
@@ -102,6 +101,7 @@ color: white;
   background-color: black;
   color: white;
   opacity: 0.4;
+    z-index: 100000;
 }
 
 textarea {
@@ -206,7 +206,7 @@ button[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 100000;
+    z-index: 1000;
      position: absolute;
      top: 15%;
      right: -28%;
